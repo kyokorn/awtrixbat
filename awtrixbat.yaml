@@ -17,9 +17,9 @@ blueprint:
 
   domain: automation
   input:
-    awtrix:
+    awtrix_3:
       name: AWTRIX Device
-      description: Select the Awtrix light
+      description: Select the target Awtrix display
       selector:
         device:
           integration: mqtt
