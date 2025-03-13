@@ -14,18 +14,19 @@ blueprint:
     ### Charging Icons
 
     ![](https://developer.lametric.com/content/apps/icon_thumbs/53212_icon_thumb.gif?v=1)![](https://developer.lametric.com/content/apps/icon_thumbs/53213_icon_thumb.gif?v=1)![](https://developer.lametric.com/content/apps/icon_thumbs/53214_icon_thumb.gif?v=1)![](https://developer.lametric.com/content/apps/icon_thumbs/53215_icon_thumb.gif?v=1)![](https://developer.lametric.com/content/apps/icon_thumbs/53216_icon_thumb.gif?v=1)
-
+  
   domain: automation
   input:
     awtrix_3:
-      name: 
+      name: AWTRIX Device
       description: Select the Awtrix light
       selector:
         device:
           integration: mqtt
+          manufacturer: Blueforcer
+          model: "AWTRIX 3"
+
           
-          model: 
-          multiple: true
     app_name:
       name: Awtrix Applicaiton name
       description: This is the app name listed in the MQTT topic - it should be unique
