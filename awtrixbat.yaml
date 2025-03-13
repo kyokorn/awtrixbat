@@ -18,7 +18,7 @@ blueprint:
   domain: automation
   input:
     awtrix_3:
-      name: AWTRIX Display
+      name: Awtrix Display
       description: Select the target Awtrix display
       selector:
         device:
