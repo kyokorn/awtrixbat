@@ -17,12 +17,14 @@ blueprint:
 
   domain: automation
   input:
-    awtrix_3:
-      name: Awtrix Display
-      description: Select the target Awtrix Display
+    awtrix:
+      name: AWTRIX Device
+      description: Select the Awtrix light
       selector:
         device:
-          model: "AWTRIX 3"
+          integration: mqtt
+          manufacturer: Blueforcer
+          model: AWTRIX Light
           multiple: true
     app_name:
       name: Awtrix Applicaiton name
