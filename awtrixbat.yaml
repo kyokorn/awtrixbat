@@ -2,7 +2,7 @@ blueprint:
   name: AWTRIX 📱️ Mobile App - Device 🔋️ Battery Monitor 🪫️
   description: This blueprint will print out the battery status of a device available to home assistant.
   domain: automation
-  input:
+  input: "AWTRIX 3"
     awtrix_3:
       name: AWTRIX Device
       description: Select the Awtrix light
