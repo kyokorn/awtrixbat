@@ -19,10 +19,9 @@ blueprint:
   input:
     awtrix_3:
       name: Awtrix Display
-      description: Select the target Awtrix display
+      description: Select the target Awtrix Display
       selector:
         device:
-          integration: mqtt
           model: "AWTRIX 3"
           multiple: true
     app_name:
