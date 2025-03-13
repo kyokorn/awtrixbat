@@ -17,7 +17,7 @@ blueprint:
 
   domain: automation
   input:
-    awtrix:
+    awtrix_3:
       name: 
       description: Select the Awtrix light
       selector:
